@@ -6,7 +6,6 @@
 - Naključno metanje kock
 - Samodejni izračun skupnega rezultata
 - Prikaz zmagovalca ali izenačenja
-- Preprosta animacija ognjemetov za zmagovalca
 - Gumb za vrnitev na začetno stran
 
 🚀 Kako igrati:
