@@ -1,0 +1,233 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: url('../slike/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    margin-top: 275px;
+}
+.cent{
+    width: 1000px;
+    height: 550px;
+    background-color: #101010;
+}
+#center{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 700px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 5px solid rgb(181, 139, 3);;
+    border-radius: 15px;
+    font-size: 35px;
+}
+#title {
+    box-sizing: border-box;
+    height: 194px;
+    width: 896px;
+    background-image: url(../slike/title.png);
+    background-size: contain; /* Adjust to contain the image fully */
+    background-position: center;
+    background-repeat: no-repeat; /* Avoid repeating if image is smaller */
+    position: absolute;
+    top: 120px;
+}
+.kaj{
+    height: 75px;
+    width: 100%;
+}
+#igralci{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+label{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.igralci{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color:rgb(181, 139, 3);
+}
+.vpis{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(181, 139, 3);
+    font-size: 20px;
+}
+#zmagovalec{
+    width: 100%;
+    color:rgb(181, 139, 3);;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+#kocke{
+    margin-top: 25px;
+    font-size: 45px;
+    
+}
+.izb{
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.igram{
+    height: 300px !important;
+}
+#obrazec{
+    width: 100%;
+    height: 100%;
+}
+.dol{
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    border-radius: 7px;
+    color:rgb(181, 139, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dol a{
+    color: rgb(181, 139, 3);
+}
+#dol{
+    color: rgb(181, 139, 3) !important;
+}
+#igralci{
+    color: rgb(255, 255, 255) !important;
+}
+input, select{
+    width: 170px;
+    height: 30px;
+    font-size: 25px;
+    color: #000000;
+}
+.kocke{
+    border:3px solid black;
+    margin:0 1px;
+    border-radius:5px;
+}
+.izberi{
+    width: 50%;
+}
+#fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    width: 130%;
+    height: 130%;
+    z-index: -1; 
+}
+.button-5 {
+    min-width: 75px;
+    height: 45px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  color: rgb(181, 139, 3);
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  
+  padding: 2px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  opacity: 1 !important; 
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: rgb(181, 139, 3);
+  color: #29271c;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: rgb(181, 139, 3);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+#nazaj{
+    min-width: 75px;
+    min-height: 45px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  color: rgb(181, 139, 3);
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+#nazaj:hover,
+#nazaj:focus {
+  background-color: rgb(181, 139, 3);
+  color: #29271c;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#nazaj:hover {
+  transform: translateY(-1px);
+}
+
+#nazaj:active {
+  background-color: rgb(181, 139, 3);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+@font-face {
+    font-family: jer;
+    src: url(../bronco/b.ttf);
+}
